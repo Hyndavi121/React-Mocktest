@@ -1,0 +1,48 @@
+.Container {
+  background-color: rgb(235, 232, 232);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 4px 8px #888;
+  height: 50vh;
+  background: rgba(175, 173, 173, 0.5);
+}
+.username {
+  border: none;
+  outline: none;
+  border-radius: 18px;
+  padding: 10px;
+  margin-left: 5px;
+}
+.password {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  border-radius: 18px;
+  padding: 10px;
+  margin-left: 12px;
+}
+button {
+  background: rgb(16, 16, 207);
+  padding: 12px 20px;
+  border-radius: 18px;
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
